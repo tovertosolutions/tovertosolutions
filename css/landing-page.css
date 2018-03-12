@@ -191,3 +191,8 @@ p.copyright {
     line-height:1.8;
     font-size:1.1em;
 }
+
+.navbar-brand>img {
+    height: 55px;
+    margin-top: -10px;
+}
