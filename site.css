@@ -1,0 +1,122 @@
+main section {
+    padding: 60px
+}
+
+main section:first-child {
+    padding: 0;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+main section h2 {
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+main section .container > .card-deck > .card {
+    -webkit-transition: background-color 1s, border 1s; /* Safari */
+    transition: background-color 1s, border 1s;
+    border: 2px solid transparent;
+}
+
+main section .container > .card-deck > .card:hover {
+    background-color: #285425 !important;
+    border: 2px solid #bbb;
+    cursor: pointer;
+    -webkit-transition: background-color .5s, border 1s; /* Safari */
+    transition: background-color .5s, border 1s;
+}
+
+main section .container > .card-deck > .card:hover:after {
+    content: "Click to read more";
+    font-size: 12px;
+    padding: 2px 5px;
+    position: absolute;
+    top: -26px;
+    left: -2px;
+    border: 2px solid #bbb;
+}
+
+.bg-img1 {
+    background-image: url("images/toverto_img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.bg-img1:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .9;
+}
+
+.bg-img1.alt:before {
+    background:#000;
+}
+
+.bg-img1 > div {
+    position: relative;
+}
+
+main section img {
+    max-width: 100%;
+}
+
+footer {
+    font-size: 12px;
+    padding: 7px 0
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0
+}
+
+.contact .address p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.highlight, .highlight a {
+    font-size: 22px;
+    color: #fff;
+}
+
+.icon-contact {
+    padding-top: 15px;
+}
+
+.icon-contact a {
+    border: 1px solid #fff;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+.tech-stack {
+    margin-top: 20px;
+}
+
+.tech-stack h4 {
+    font-size: 19px;
+}
+.tv-dark {
+    background: #101010;
+}
+.tv-light{
+    background: #131313;
+}
+.about-sec p {
+    font-size: 20px;
+}
+h2 {
+    font-size: 38px;
+    margin-bottom: 36px;
+}
