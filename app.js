@@ -2,11 +2,11 @@
 $('span.copyright-year').html(new Date().getFullYear());
 
 jQuery(document).ready(function ($) {
-
-    $(".menu-bar").click(function () {
-        $(".tv-menu").slideToggle();
-    });
-     
+    $(".menu-bar, .tv-menu li a").click(function () {
+        if ($('.menu-bar').is(":visible")) {
+            $(".tv-menu").slideToggle();
+        }
+    });     
 });
 
 // type effect title start

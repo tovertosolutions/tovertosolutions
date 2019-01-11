@@ -1,35 +1,48 @@
-main section {
+.home section {
     padding: 60px
 }
 
-main section:first-child {
+.home section:first-child {
     padding: 0;
+}
+
+.detail section:first-child {
+    padding-top: 120px;
 }
 
 .bg-black {
     background-color: #000;
 }
 
-main section h2 {
+.home section h2 {
     margin-top: -10px;
     padding-bottom: 20px;
 }
 
-main section .container > .card-deck > .card {
+.home section .container > .card-deck > .card {
     -webkit-transition: background-color 1s, border 1s; /* Safari */
     transition: background-color 1s, border 1s;
     border: 2px solid transparent;
 }
 
-main section .container > .card-deck > .card:hover {
-    background-color: #285425 !important;
+.home section .card > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home section .container > .card-deck > .card:hover {
+    background-color: #596b58 !important;
     border: 2px solid #bbb;
-    cursor: pointer;
     -webkit-transition: background-color .5s, border 1s; /* Safari */
     transition: background-color .5s, border 1s;
 }
 
-main section .container > .card-deck > .card:hover:after {
+.home section.products .container > .card-deck > .card:hover {
+    cursor: pointer;
+    background-color: #285425 !important;
+}
+
+.home section.products .container > .card-deck > .card:hover:after {
     content: "Click to read more";
     font-size: 12px;
     padding: 2px 5px;
@@ -60,14 +73,14 @@ main section .container > .card-deck > .card:hover:after {
 }
 
 .bg-img1.alt:before {
-    background:#000;
+    background: #000;
 }
 
 .bg-img1 > div {
     position: relative;
 }
 
-main section img {
+.home section img {
     max-width: 100%;
 }
 
@@ -107,16 +120,28 @@ footer {
 .tech-stack h4 {
     font-size: 19px;
 }
+
 .tv-dark {
     background: #101010;
 }
-.tv-light{
+
+.tv-light {
     background: #131313;
 }
+
 .about-sec p {
     font-size: 20px;
 }
+
 h2 {
     font-size: 38px;
     margin-bottom: 36px;
+}
+
+.secion-icon {
+    max-height: 130px;
+}
+
+.detail section {
+    padding: 30px;
 }
