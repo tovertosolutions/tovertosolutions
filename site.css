@@ -145,3 +145,32 @@ h2 {
 .detail section {
     padding: 30px;
 }
+
+iframe {
+    margin-top: -25px;
+    margin-bottom: -65px;
+}
+
+.contact {
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.address-container {
+    margin-top: 55px
+}
+
+.address-container h3 {
+    margin-bottom: 40px
+}
+
+@media screen and (max-width:768px) {
+    .contact {
+        padding-bottom: 60px !important;
+        overflow: hidden;
+    }
+
+    .address-container {
+        padding-top: 20px;
+    }
+}
