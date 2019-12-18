@@ -205,21 +205,23 @@ i {
   .columns {
     width: 100%;
   }
+}
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .pack {
     padding-top: 25%;
   }
+}
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: Portrait) {
   .pack {
     padding-top: 13.5%;
-  } 
+  }
+} 
 
   @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: Portrait) {
     .pack {
       padding-top: 10%;
     } 
 }
-}
-}
+
