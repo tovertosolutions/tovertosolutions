@@ -16,8 +16,7 @@
 .columns {
   float: left;
   width:25%;
-  padding: 5px;
-  
+  padding: 15px;
 }
 
 .price1{
@@ -171,7 +170,7 @@ i {
 }
 
 .list::-webkit-scrollbar-thumb {
-    background-color: #e5e8eb;
+    background-color: #D5DFF9  ;
     outline: #91c0f0 solid 1px;
 }
 
@@ -201,6 +200,11 @@ i {
   height: 32px;
 }
 
+i.fa.fa-check-circle.package_features_green {
+  color: #2fc135;
+  padding-right: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;
@@ -216,9 +220,8 @@ i {
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: Portrait) {
   .pack {
     padding-top: 13.5%;
-  }
-} 
-
+  } 
+}
   @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: Portrait) {
     .pack {
       padding-top: 10%;
