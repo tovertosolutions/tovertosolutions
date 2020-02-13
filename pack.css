@@ -200,6 +200,12 @@ i {
   height: 32px;
 }
 
+.columnstf {
+    width:25%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
 i.fa.fa-check-circle.package_features_green {
   color: #2fc135;
   padding-right: 10px;
